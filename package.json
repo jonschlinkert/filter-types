@@ -1,0 +1,49 @@
+{
+  "name": "filter-types",
+  "description": "Filter items from an array or arguments that match the specified javascript native type or types. Uses a very fast filter function.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/filter-types",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/filter-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/filter-types/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/filter-types/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "arr-filter": "^1.1.0",
+    "kind-of": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "args",
+    "arguments",
+    "array",
+    "filter",
+    "javascript",
+    "native",
+    "type",
+    "typeof"
+  ]
+}
